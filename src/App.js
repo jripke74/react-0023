@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import AllQuotes from './pages/AllQuotes';
 import QuoteDetail from './pages/QuoteDetail';
-import NewQuotes from './pages/NewQuotes';
+import NewQuote from './pages/NewQuote';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <QuoteDetail />
       </Route>
       <Route path="/new-quote">
-        <NewQuotes />
+        <NewQuote />
       </Route>
     </Switch>
   );
