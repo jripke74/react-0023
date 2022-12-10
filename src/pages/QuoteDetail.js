@@ -12,7 +12,6 @@ const QuoteDetail = () => {
   const params = useParams();
 
   const { quoteId } = params;
-  console.log(quoteId);
 
   const {
     sendRequest,
